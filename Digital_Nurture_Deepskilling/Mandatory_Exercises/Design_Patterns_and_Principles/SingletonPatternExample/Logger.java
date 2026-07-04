@@ -1,3 +1,4 @@
+package Digital_Nurture_Deepskilling.Mandatory_Exercises.Design_Patterns_and_Principles.SingletonPatternExample;
 public class Logger {
     private static Logger instance;
     private Logger(){
