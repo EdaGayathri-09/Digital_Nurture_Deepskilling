@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.gayathri</groupId>
-  <artifactId>junit_assignments</artifactId>
+  <artifactId>testing_framework_assignments</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>junit_assignments</name>
+  <name>testing_framework_assignments</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -24,6 +24,22 @@
       <artifactId>junit</artifactId> 
       <version>4.13.2</version> 
       <scope>test</scope> 
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>5.12.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version>
+    </dependency>
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.2.3</version>
     </dependency>
   </dependencies>
 
